@@ -1,0 +1,14 @@
+{
+  "valid_header": {
+    "username": "heera",
+    "password": "heera"
+  },
+  "invalid_header": {
+    "username": "test",
+    "password": "test"
+  },
+  "empty_header": {
+    "username": "",
+    "password": ""
+  }
+}

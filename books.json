@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Book1",
+      "author": "Author1",
+      "isbn": "978-3-16-148410-1",
+      "price": 11
+    },
+    {
+      "id": "2",
+      "title": "Book2",
+      "author": "Author2",
+      "isbn": "978-3-16-148410-2",
+      "price": 12
+    },
+    {
+      "id": "3",
+      "title": "Book3",
+      "author": "Author3",
+      "isbn": "978-3-16-148410-3",
+      "price": 13
+    },
+    {
+      "id": "4",
+      "title": "Book4",
+      "author": "Author4",
+      "isbn": "978-3-16-148410-4",
+      "price": 14
+    },
+    {
+      "id": "5",
+      "title": "Book5",
+      "author": "Author5",
+      "isbn": "978-3-16-148410-5",
+      "price": 15
+    },
+    {
+      "id": "6",
+      "title": "Book6",
+      "author": "Author5",
+      "isbn": "978-3-16-148410-6",
+      "price": 16
+    }
+  ]
+}

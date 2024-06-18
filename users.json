@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "email": "heera@gmail.com",
+      "password": "$2a$10$HlO.dvx2N67ihlMU8e34tOWjR25UXymzlK6Rv.RjqY3Rz23sAIfrm",
+      "username": "heera",
+      "firstname": "Heera",
+      "lastname": "Singh",
+      "age": 38,
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "add_book": {
+    "id": "7",
+    "title": "Book7",
+    "author": "Author7",
+    "isbn": "978-3-16-148410-7",
+    "price": 17
+  },
+  "update_book": {
+    "id": "7",
+    "title": "Book77",
+    "author": "Author77",
+    "isbn": "978-3-16-148410-77",
+    "price": 177
+  },
+  "add_duplicate_book": {
+    "id": "1",
+    "title": "Book1",
+    "author": "Author1",
+    "isbn": "978-3-16-148410-1",
+    "price": 11
+  }
+}

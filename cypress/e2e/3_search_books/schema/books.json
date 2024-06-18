@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "minItems": 6,
+  "items": [
+    { "$ref": "#/$defs/book" }
+  ],
+  "$defs": {
+    "book": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id":     {"type":"string"},
+                "title":  {"type":"string"},
+                "author": {"type":"string"},
+                "isbn":   {"type":"string"},
+                "price":  {"type":"number"}
+            },
+            "required": ["id", "title", "author", "isbn", "price"]
+        }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "books-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve-json": "json-server --watch books.json",
+    "serve-json-auth": "node server --watch books.json",
+    "serve-json-duplicate-entry": "node serverDuplicateEntry --watch books.json",
+    "serve-json-user": "node serverUsers --watch users.json",
+    "serve-json-register": "json-server users.json -m ./node_modules/json-server-auth --watch books.json",
+
+    "test-health": "npx cypress run --spec 'cypress/e2e/1_healthcheck' > results/health.txt",
+    "test-auth": "npx cypress run --spec 'cypress/e2e/2_auth' > results/auth.txt",
+    "test-search-books-negative": "npx cypress run --spec 'cypress/e2e/3_search_books/negative' > results/books_negative.txt",
+    "test-search-books-positive": "npx cypress run --spec 'cypress/e2e/3_search_books/positive' > results/books_positive.txt",
+    "test-search-books-schema": "npx cypress run --spec 'cypress/e2e/3_search_books/schema' > results/books_schema.txt",
+    "test-user-registration": "npx cypress run --spec 'cypress/e2e/4_user_registration' > results/user-registration.txt",
+    "test-user-login": "npx cypress run --spec 'cypress/e2e/5_user_login' > results/user-login.txt"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ajv": "^8.16.0",
+    "ajv-cli": "^0.6.0",
+    "cypress": "^13.11.0",
+    "json-server": "0.17.4",
+    "json-server-auth": "^2.1.0"
+  }
+}

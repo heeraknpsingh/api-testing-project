@@ -1,0 +1,30 @@
+{
+  "register_user": {
+    "username": "heera",
+    "password": "testpassword123",
+    "email": "heera@gmail.com",
+    "firstname": "Heera",
+    "lastname": "Singh",
+    "age": 38
+  },
+  "register_invalid_user": {
+    "username": "heera",
+    "password": "testpassword123"
+  },
+  "login_valid_user": {
+    "email": "heera@gmail.com",
+    "password": "testpassword123"
+  },
+  "login_invalid_email": {
+    "email": "heerasingh@gmail.com",
+    "password": "testpassword123"
+  },
+  "login_invalid_password": {
+    "email": "heera@gmail.com",
+    "password": "testpassword"
+  },
+  "login_invalid_body": {
+    "username": "heera@gmail.com",
+    "password": "testpassword123"
+  }
+}
