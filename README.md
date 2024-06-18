@@ -8,11 +8,29 @@ This repository to test login, registration, search books etc using json-server 
 ## Go inside the folder
 > Run command `cd api-testing-project`
 
-## Go inside the folder
+## Install dependencies
+> Run command `npm install`
+
+## Run all API tests
 > Run command `sh run.sh`
 
+## Verify results
+> Go inside directory `results` and you will see all different results text files
 
+## Github action flow with artifacts uploaded
+``` https://github.com/heeraknpsingh/api-testing-project/actions/workflows/run.yml
 
+## Different directories and file paths
++ All tests are inside directory cypress/e2e/
+  * healthcheck (validate server health)
+  + auth (validate authentication based on username and password)
+  - search books (validate books tests)
+  * user registration (validate user registration tests)
+  + user login (validate user login tests)
++ All test data is inside directory cypress/fixtures/
+  * books (book data)
+  + headers (auth data)
+  - users (user login and registration data)
 
 
 
