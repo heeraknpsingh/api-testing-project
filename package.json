@@ -16,7 +16,15 @@
     "test-search-books-positive": "npx cypress run --spec 'cypress/e2e/3_search_books/positive' > results/books_positive.txt",
     "test-search-books-schema": "npx cypress run --spec 'cypress/e2e/3_search_books/schema' > results/books_schema.txt",
     "test-user-registration": "npx cypress run --spec 'cypress/e2e/4_user_registration' > results/user-registration.txt",
-    "test-user-login": "npx cypress run --spec 'cypress/e2e/5_user_login' > results/user-login.txt"
+    "test-user-login": "npx cypress run --spec 'cypress/e2e/5_user_login' > results/user-login.txt",
+
+    "health": "npm run serve-json & npm run test-health",
+    "auth": "npm run serve-json-auth & npm run test-auth",
+    "book-negative": "npm run serve-json-duplicate-entry  & npm run test-search-books-negative",
+    "book-positive": "npm run serve-json & npm run test-search-books-positive",
+    "book-schema": "npm run serve-json & npm run test-search-books-schema",
+    "user-registration": "npm run serve-json-register  & npm run test-user-registration",
+    "user-login": "npm run serve-json-register  & npm run test-user-login"
   },
   "author": "",
   "license": "ISC",
