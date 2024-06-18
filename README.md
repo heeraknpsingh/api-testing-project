@@ -37,6 +37,9 @@ This repository to test login, registration, search books etc using json-server 
 * All results files are inside directory **results/**
 
 `books.json` file is acting as DB data here for the books
-`run.sh` file is runner file for exection
+``` run.sh file is runner file for exection
 `server.js`, `severAuth.js` and `serverDuplicateEntry.js` file is for middleware changes for *auth*, *duplicate data*, etc
 `users.json` file is acting as DB data here for the users (empty here)
+
+## Created different node scripts inside `package.json` file
+![Node scripts](images/image.png)
