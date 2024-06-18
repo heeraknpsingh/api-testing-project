@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "serve-json": "json-server --watch books.json",
-    "serve-json-auth": "node server --watch books.json",
+    "serve-json-auth": "node serverAuth --watch books.json",
     "serve-json-duplicate-entry": "node serverDuplicateEntry --watch books.json",
     "serve-json-user": "node serverUsers --watch users.json",
     "serve-json-register": "json-server users.json -m ./node_modules/json-server-auth --watch books.json",
