@@ -20,11 +20,11 @@
 
     "health": "npm run serve-json & npm run test-health",
     "auth": "npm run serve-json-auth & npm run test-auth",
-    "book-negative": "npm run serve-json-duplicate-entry  & npm run test-search-books-negative",
+    "book-negative": "npm run serve-json-duplicate-entry & npm run test-search-books-negative",
     "book-positive": "npm run serve-json & npm run test-search-books-positive",
     "book-schema": "npm run serve-json & npm run test-search-books-schema",
-    "user-registration": "npm run serve-json-register  & npm run test-user-registration",
-    "user-login": "npm run serve-json-register  & npm run test-user-login"
+    "user-registration": "npm run serve-json-register & npm run test-user-registration",
+    "user-login": "npm run serve-json-register & npm run test-user-login"
   },
   "author": "",
   "license": "ISC",
